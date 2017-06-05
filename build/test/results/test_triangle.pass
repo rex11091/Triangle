@@ -1,0 +1,32 @@
+---
+:source:
+  :path: test
+  :file: test_triangle.c
+:successes:
+- :test: test_triangle_sortsideoftriangle
+  :line: 12
+  :message: ''
+- :test: test_triangle_shortside1_add_shortside2_expect_invalid
+  :line: 23
+  :message: ''
+- :test: test_triangle__TriangleType_expect_RightAngle
+  :line: 27
+  :message: ''
+- :test: test_triangle__TriangleType_expect_ObtuseAngle
+  :line: 31
+  :message: ''
+- :test: test_triangle__TriangleType_expect_AccuteAngle
+  :line: 35
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 5
+  :passed: 5
+  :failed: 0
+  :ignored: 0
+:stdout:
+- 'longside : 5'
+- " shortside1 : 3"
+- " shortside2 : 4"
+- " "
